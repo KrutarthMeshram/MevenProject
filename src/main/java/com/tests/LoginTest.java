@@ -34,6 +34,13 @@ public class LoginTest extends TestBase {
 		Assert.assertEquals(driver.getTitle(), "JavaByKiran | User");
 	}
 	
+	@Test
+	public void test()
+	{
+	System.out.println("New Test");
+	Assert.assertEquals(1, 1);
+	}
+	
 	/*@Test 
 	public void verifyTable()
 	{
